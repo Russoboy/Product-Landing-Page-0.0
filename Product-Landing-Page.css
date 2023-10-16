@@ -1,0 +1,68 @@
+/* NAVBAR SECTION */
+.nav_bar{
+    margin-top: 20px;
+   border-radius: 90px;
+   padding: 15px;
+   /* From https://css.glass */
+
+background: rgba(252, 252, 252, 0.514);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(83, 80, 80, 0.3);
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+.nav_List{
+    list-style: none;
+    color: rgb(7, 9, 10);
+    
+}
+
+.nav_List li{
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.nav_List li:nth-child(2) {
+    margin-left: 26rem;
+}
+.nav_List li:nth-child(2), .nav_List li:nth-child(3), .nav_List li:nth-child(4){
+    margin-right: 1.2rem;
+}
+
+/* HOME CONTAINER */
+.home_container{
+  margin-top: 10rem;  
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  /* padding: 5rem;  */
+}
+
+.text_contents{
+  color: whitesmoke;
+  white-space: pre-wrap;
+  font-size: large;
+  margin-left: 1rem;
+   margin-right: ;
+}
+.nike_btn{
+  background-color: rgb(22, 55, 145);
+  color: white;
+  margin-top: 0.3rem;
+  border: 1px none white;
+  /* border-radius: 45%; */
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.nike_img{
+    /* position: relative; */
+    margin-right: 1rem;
+    width: 300px;
+    height: 300px;
+ }
