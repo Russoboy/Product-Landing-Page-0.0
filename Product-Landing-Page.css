@@ -36,33 +36,38 @@ body{
 
 /* HOME CONTAINER */
 .home_container{
-  margin-top: 10rem;  
+  margin-top: 1px;  
   display: flex;
-  flex-direction: row;
-  /* align-items: center; */
-  /* justify-content: space-between; */
-  /* padding: 5rem;  */
+  flex-wrap: wrap;
+  gap: 19.5rem;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center; 
+  padding: 1.2rem;
 }
 
 .text_contents{
-  color: whitesmoke;
-  white-space: pre-wrap;
-  font-size: large;
-  margin-left: 1rem;
-   margin-right: ;
+  color: whites;
 }
 .nike_btn{
-  background-color: rgb(22, 55, 145);
-  color: white;
-  margin-top: 0.3rem;
-  border: 1px none white;
-  /* border-radius: 45%; */
-  padding: 0.5rem;
-  font-size: 1rem;
+   color: black; 
+   overflow: hidden;
+   border: none;
+   cursor: pointer;
+   border-radius: 15px;
+   color: rgb(0, 0, 0);
+   width: 150px;
+   height: 40px;
+   font-weight: bold;
+   align-content: center;
+   font-size: 0.8rem;
+}
 }
 .nike_img{
-    /* position: relative; */
-    margin-right: 1rem;
-    width: 300px;
-    height: 300px;
+    transform: rotate(-30deg);
  }
+
+.home_container .content{
+    flex: 1 1 40rem;
+    padding-top: 6.5rem;
+  }
