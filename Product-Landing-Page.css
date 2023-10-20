@@ -74,9 +74,8 @@ body{
 
 *========SECTION SECTION========*/
 .Second_section{
-    max-width: 1200px;
-    margin: auto;
-    padding: 5rem 0.1rem;
+   padding: 1.2rem
+   
 }
 .Second_section_heading h1 {
     color: rgb(255, 255, 255);
@@ -87,24 +86,52 @@ body{
 }
 .Shoe_container{
     margin-top: 4rem;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    display: flex; 
+    flex-direction: row;
     
 }
 
 .Product_card{
-  
+    width: 14rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 1rem;
+    margin-right: 4rem;
 }
 
+.Product_card img{
+    width: 11rem;
+    height: 11rem;
+    
+}
 .Product_card h2{
     color: white;
 }
-.Product_card h5{
+.Product_card p{
     color: white;
 }
 
+/*==========THIRD SECTION==========*/
 
+.third_section{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+.third_section_img{
+    border-radius: 1rem;
+    width: 44rem;
+    height: 40rem;
+    margin-left: 0.5rem;
+}
+.form{
+   display: flex;
+   flex-direction: column; 
+   margin-left: 14rem;  
+   width: 80%;
+   margin-left: 1rem;
+}
 
 
 
